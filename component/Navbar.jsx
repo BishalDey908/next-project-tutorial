@@ -73,6 +73,13 @@ const Navbar = () => {
                     href="/about/team"
                     className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
                   >
+                    Team
+                  </Link>
+
+                  <Link
+                    href="/about"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+                  >
                     About
                   </Link>
                   <Link
@@ -80,6 +87,18 @@ const Navbar = () => {
                     className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
                   >
                     Projects
+                  </Link>
+                  <Link
+                    href="/clientcomponent"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+                  >
+                    clientcomponent
+                  </Link>
+                  <Link
+                    href="/servercomponent"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
+                  >
+                    servercomponent
                   </Link>
                   <Link
                     href="#"
